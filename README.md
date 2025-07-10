@@ -22,15 +22,14 @@ Tujuannya adalah untuk membantu sistem manajemen barang hilang secara otomatis m
 
 **Request JSON:**
 
-````json
+```json
 {
   "hilang": ["Dompet coklat isi KTP dan ATM"],
   "temuan": ["Menemukan dompet kulit warna coklat berisi SIM dan ATM"]
 }
 
-**Response JSON:**
+Response JSON:
 
-```json
 [
   {
     "index_hilang": 0,
@@ -38,7 +37,7 @@ Tujuannya adalah untuk membantu sistem manajemen barang hilang secara otomatis m
     "similarity": 0.91
   }
 ]
-````
+```
 
 ### 🛠️ Cara Menjalankan Lokal
 
@@ -48,11 +47,11 @@ Tujuannya adalah untuk membantu sistem manajemen barang hilang secara otomatis m
 
 2. Buat dan Aktifkan Virtual Environment
 
-python -m venv venv
+   python -m venv venv
 
-# Windows: venv\Scripts\activate
+   Windows: venv\Scripts\activate
 
-# Mac: source venv/bin/activate
+   Mac: source venv/bin/activate
 
 3. Install Dependencies
    pip install -r requirements.txt
